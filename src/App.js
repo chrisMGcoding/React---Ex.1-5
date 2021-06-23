@@ -1,14 +1,13 @@
 import React from 'react';
+import Navbar from "./navbar"
+
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default class App extends React.Component{
 render() {
     return (
       <div>
-        <ul class="liste">
-          <li>test</li>
-          <li>contacts</li>
-          <li>about us</li>
-        </ul>
+        <Navbar/>
       </div>
     );
   }
